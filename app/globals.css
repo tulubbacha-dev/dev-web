@@ -22,7 +22,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Custom scrollbar */
 ::-webkit-scrollbar {
   width: 10px;
 }
@@ -40,7 +39,6 @@ body {
   background: #00f0ff;
 }
 
-/* Utility classes */
 .bg-gradient-ttb {
   background: linear-gradient(
     135deg,
