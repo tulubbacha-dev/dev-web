@@ -14,7 +14,6 @@ export default function AnimatedBackground({ className = '' }: AnimatedBackgroun
   useEffect(() => {
     if (!canvasRef.current) return
 
-    // Initialize Three.js scene
     sceneRef.current = new ThreeScene(canvasRef.current, {
       nodeCount: 80,
       particleCount: 200,

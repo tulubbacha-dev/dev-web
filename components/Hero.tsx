@@ -1,10 +1,8 @@
 export default function Hero() {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16">
-      {/* Background */}
       <div className="absolute inset-0 bg-gradient-ttb" />
 
-      {/* Content */}
       <div className="relative z-10 max-w-4xl mx-auto px-4 text-center">
         <div className="mb-6 inline-block animate-pulse">
           <span className="px-4 py-2 rounded-full bg-ttb-blue/10 border border-ttb-blue/30 text-ttb-blue text-sm font-semibold">
@@ -32,7 +30,6 @@ export default function Hero() {
           </button>
         </div>
 
-        {/* Stats */}
         <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-8">
           {[
             { value: '15+', label: 'Years Experience' },

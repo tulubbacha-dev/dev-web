@@ -6,7 +6,6 @@ export default function Services() {
   return (
     <section className="relative py-20 px-4 bg-ttb-navy/50">
       <div className="max-w-6xl mx-auto">
-        {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
             <span className="text-gradient-ttb">Our Services</span>
@@ -16,7 +15,6 @@ export default function Services() {
           </p>
         </div>
 
-        {/* Services Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           {SERVICES.map((service) => (
             <div
